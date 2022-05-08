@@ -6,6 +6,7 @@ public class DataStructure {
         obj1.push(70);
         obj1.push(30);
         obj1.push(56);
+
         obj1.print();
 
     }

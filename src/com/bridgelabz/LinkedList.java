@@ -14,6 +14,11 @@ public class LinkedList<T> {
             tail = obj2 ;
         }
     }
+    public void insertBetween(T insertData){
+        Node<T> obj2=new Node<>(insertData);
+        head.next=obj2;
+        obj2.next=tail;
+    }
 
     public void print() {
         Node<T> temp = head;

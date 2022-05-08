@@ -7,8 +7,8 @@ public class DataStructure {
         obj1.add(30);
         obj1.add(70);
        // obj1.insertBetween(30);
-
-        obj1.pop();
+        obj1.search(30);
+        // obj1.pop();
         obj1.print();
 
     }
